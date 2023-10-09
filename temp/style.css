@@ -1,0 +1,38 @@
+
+ body {
+    background-color: dimgray;
+ }
+ h1 {
+   margin-top: 15%;
+    font-family:cursive , sans-serif;
+    color: rgb(18, 20, 20);
+    text-align: center;
+  }
+  input {
+    text-align: center;
+   
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: rgb(73, 43, 4);
+    font-family: cursive, sans-serif;
+    
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
